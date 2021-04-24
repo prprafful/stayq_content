@@ -27,8 +27,8 @@ jobs:
 
       - name: Repository Dispatch
         uses: peter-evans/repository-dispatch@v1
-        repository: poc
         with:
+          repository: poc
           token: ${{ secrets.REPO_ACCESS_TOKEN }}
           event-type: content-ready
           
