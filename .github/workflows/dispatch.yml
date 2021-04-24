@@ -31,6 +31,4 @@ jobs:
         with:
           token: ${{ secrets.REPO_ACCESS_TOKEN }}
           event-type: content-ready
-        run: 
-          echo ${{ github.event.client_payload }}
           
