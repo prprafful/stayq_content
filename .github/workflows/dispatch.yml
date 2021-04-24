@@ -28,7 +28,7 @@ jobs:
       - name: Repository Dispatch
         uses: peter-evans/repository-dispatch@v1
         with:
-          repository: stayqrious/stayqrious_com
+          repository: prprafful/stayq_website
           token: ${{ secrets.REPO_ACCESS_TOKEN }}
           event-type: content-ready
           
